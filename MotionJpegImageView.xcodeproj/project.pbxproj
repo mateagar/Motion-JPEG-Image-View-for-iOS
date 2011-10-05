@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C636B828143B7538008CB95D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C636B827143B7538008CB95D /* UIKit.framework */; };
+		C636B82A143B7538008CB95D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C636B829143B7538008CB95D /* Foundation.framework */; };
+		C636B82C143B7538008CB95D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C636B82B143B7538008CB95D /* CoreGraphics.framework */; };
+		C636B834143B7538008CB95D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C636B833143B7538008CB95D /* main.m */; };
+		C636B838143B7538008CB95D /* MotionJpegImageViewAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = C636B837143B7538008CB95D /* MotionJpegImageViewAppDelegate.mm */; };
+		C636B83C143B7538008CB95D /* MotionJpegImageViewAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = C636B83B143B7538008CB95D /* MotionJpegImageViewAppDelegate_iPhone.m */; };
+		C636B83F143B7538008CB95D /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C636B83D143B7538008CB95D /* MainWindow_iPhone.xib */; };
+		C636B843143B7538008CB95D /* MotionJpegImageViewAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C636B842143B7538008CB95D /* MotionJpegImageViewAppDelegate_iPad.m */; };
+		C636B846143B7538008CB95D /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C636B844143B7538008CB95D /* MainWindow_iPad.xib */; };
+		C636B84D143B760E008CB95D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C636B84C143B760E008CB95D /* Localizable.strings */; };
+		C636B850143B7622008CB95D /* MotionJpegImageView.mm in Sources */ = {isa = PBXBuildFile; fileRef = C636B84F143B7622008CB95D /* MotionJpegImageView.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C636B823143B7538008CB95D /* MotionJpegImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionJpegImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C636B827143B7538008CB95D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C636B829143B7538008CB95D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C636B82B143B7538008CB95D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C636B82F143B7538008CB95D /* MotionJpegImageView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MotionJpegImageView-Info.plist"; sourceTree = "<group>"; };
+		C636B833143B7538008CB95D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C636B835143B7538008CB95D /* MotionJpegImageView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MotionJpegImageView-Prefix.pch"; sourceTree = "<group>"; };
+		C636B836143B7538008CB95D /* MotionJpegImageViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MotionJpegImageViewAppDelegate.h; sourceTree = "<group>"; };
+		C636B837143B7538008CB95D /* MotionJpegImageViewAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MotionJpegImageViewAppDelegate.mm; sourceTree = "<group>"; };
+		C636B83A143B7538008CB95D /* MotionJpegImageViewAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MotionJpegImageViewAppDelegate_iPhone.h; path = iPhone/MotionJpegImageViewAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		C636B83B143B7538008CB95D /* MotionJpegImageViewAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MotionJpegImageViewAppDelegate_iPhone.m; path = iPhone/MotionJpegImageViewAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		C636B83E143B7538008CB95D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		C636B841143B7538008CB95D /* MotionJpegImageViewAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MotionJpegImageViewAppDelegate_iPad.h; path = iPad/MotionJpegImageViewAppDelegate_iPad.h; sourceTree = "<group>"; };
+		C636B842143B7538008CB95D /* MotionJpegImageViewAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MotionJpegImageViewAppDelegate_iPad.m; path = iPad/MotionJpegImageViewAppDelegate_iPad.m; sourceTree = "<group>"; };
+		C636B845143B7538008CB95D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		C636B84C143B760E008CB95D /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		C636B84E143B7622008CB95D /* MotionJpegImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionJpegImageView.h; sourceTree = "<group>"; };
+		C636B84F143B7622008CB95D /* MotionJpegImageView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MotionJpegImageView.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C636B820143B7538008CB95D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C636B828143B7538008CB95D /* UIKit.framework in Frameworks */,
+				C636B82A143B7538008CB95D /* Foundation.framework in Frameworks */,
+				C636B82C143B7538008CB95D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C636B818143B7538008CB95D = {
+			isa = PBXGroup;
+			children = (
+				C636B82D143B7538008CB95D /* MotionJpegImageView */,
+				C636B826143B7538008CB95D /* Frameworks */,
+				C636B824143B7538008CB95D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C636B824143B7538008CB95D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C636B823143B7538008CB95D /* MotionJpegImageView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C636B826143B7538008CB95D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C636B827143B7538008CB95D /* UIKit.framework */,
+				C636B829143B7538008CB95D /* Foundation.framework */,
+				C636B82B143B7538008CB95D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C636B82D143B7538008CB95D /* MotionJpegImageView */ = {
+			isa = PBXGroup;
+			children = (
+				C636B836143B7538008CB95D /* MotionJpegImageViewAppDelegate.h */,
+				C636B837143B7538008CB95D /* MotionJpegImageViewAppDelegate.mm */,
+				C636B84E143B7622008CB95D /* MotionJpegImageView.h */,
+				C636B84F143B7622008CB95D /* MotionJpegImageView.mm */,
+				C636B839143B7538008CB95D /* iPhone */,
+				C636B840143B7538008CB95D /* iPad */,
+				C636B82E143B7538008CB95D /* Supporting Files */,
+			);
+			path = MotionJpegImageView;
+			sourceTree = "<group>";
+		};
+		C636B82E143B7538008CB95D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C636B82F143B7538008CB95D /* MotionJpegImageView-Info.plist */,
+				C636B833143B7538008CB95D /* main.m */,
+				C636B835143B7538008CB95D /* MotionJpegImageView-Prefix.pch */,
+				C636B84C143B760E008CB95D /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C636B839143B7538008CB95D /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				C636B83A143B7538008CB95D /* MotionJpegImageViewAppDelegate_iPhone.h */,
+				C636B83B143B7538008CB95D /* MotionJpegImageViewAppDelegate_iPhone.m */,
+				C636B83D143B7538008CB95D /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		C636B840143B7538008CB95D /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				C636B841143B7538008CB95D /* MotionJpegImageViewAppDelegate_iPad.h */,
+				C636B842143B7538008CB95D /* MotionJpegImageViewAppDelegate_iPad.m */,
+				C636B844143B7538008CB95D /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C636B822143B7538008CB95D /* MotionJpegImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C636B849143B7538008CB95D /* Build configuration list for PBXNativeTarget "MotionJpegImageView" */;
+			buildPhases = (
+				C636B81F143B7538008CB95D /* Sources */,
+				C636B820143B7538008CB95D /* Frameworks */,
+				C636B821143B7538008CB95D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotionJpegImageView;
+			productName = MotionJpegImageView;
+			productReference = C636B823143B7538008CB95D /* MotionJpegImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C636B81A143B7538008CB95D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "ThinkFlood Inc";
+			};
+			buildConfigurationList = C636B81D143B7538008CB95D /* Build configuration list for PBXProject "MotionJpegImageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C636B818143B7538008CB95D;
+			productRefGroup = C636B824143B7538008CB95D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C636B822143B7538008CB95D /* MotionJpegImageView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C636B821143B7538008CB95D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C636B83F143B7538008CB95D /* MainWindow_iPhone.xib in Resources */,
+				C636B846143B7538008CB95D /* MainWindow_iPad.xib in Resources */,
+				C636B84D143B760E008CB95D /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C636B81F143B7538008CB95D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C636B834143B7538008CB95D /* main.m in Sources */,
+				C636B838143B7538008CB95D /* MotionJpegImageViewAppDelegate.mm in Sources */,
+				C636B83C143B7538008CB95D /* MotionJpegImageViewAppDelegate_iPhone.m in Sources */,
+				C636B843143B7538008CB95D /* MotionJpegImageViewAppDelegate_iPad.m in Sources */,
+				C636B850143B7622008CB95D /* MotionJpegImageView.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C636B83D143B7538008CB95D /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C636B83E143B7538008CB95D /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		C636B844143B7538008CB95D /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C636B845143B7538008CB95D /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C636B847143B7538008CB95D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C636B848143B7538008CB95D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C636B84A143B7538008CB95D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MotionJpegImageView/MotionJpegImageView-Prefix.pch";
+				INFOPLIST_FILE = "MotionJpegImageView/MotionJpegImageView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C636B84B143B7538008CB95D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MotionJpegImageView/MotionJpegImageView-Prefix.pch";
+				INFOPLIST_FILE = "MotionJpegImageView/MotionJpegImageView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C636B81D143B7538008CB95D /* Build configuration list for PBXProject "MotionJpegImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C636B847143B7538008CB95D /* Debug */,
+				C636B848143B7538008CB95D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C636B849143B7538008CB95D /* Build configuration list for PBXNativeTarget "MotionJpegImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C636B84A143B7538008CB95D /* Debug */,
+				C636B84B143B7538008CB95D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C636B81A143B7538008CB95D /* Project object */;
+}
