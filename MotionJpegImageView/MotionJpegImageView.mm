@@ -319,6 +319,17 @@ static NSData *_endMarkerData = nil;
     return self;
 }
 
+-(void)awakeFromNib {
+    [super awakeFromNib];
+    
+    if (_endMarkerData == nil) {
+        uint8_t endMarker[2] = END_MARKER_BYTES;
+        _endMarkerData = [[NSData alloc] initWithBytes:endMarker length:2];
+    }
+    
+    self.contentMode = UIViewContentModeScaleAspectFit;
+}
+
 #pragma mark - Overrides
 
 - (void)dealloc {
